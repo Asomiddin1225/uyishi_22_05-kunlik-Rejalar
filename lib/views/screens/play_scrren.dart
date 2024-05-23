@@ -82,7 +82,9 @@ class _PlanScreenState extends State<PlanScreen> {
     return [
       if (incompletePlans.isNotEmpty) ...[
         Text("Bajarilmagan rejalar",
-            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+            style: TextStyle(fontSize: 18,
+             fontWeight: FontWeight.bold
+             )),
         ...incompletePlans,
         SizedBox(height: 20),
       ],
